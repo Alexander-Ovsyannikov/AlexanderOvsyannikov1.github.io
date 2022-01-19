@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat;
+    /* height: 1000px */
+
+
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    /* background: cadetblue; */
+    /* width: calc(50% - 20px); */
+    /* height: calc((35vw - 20px) / 16 * 9); */
+    margin: 10px;
+}
+
+/* .item:hover {
+    transform: scale(1.07);
+    margin-bottom: 70%;
+} */
+
+.bg_img_div {
+    width: 100%;
+    height: 100%;
+    /* width: calc(50% - 20px); */
+    /* height: calc((35vw - 20px) / 16 * 9); */
+    /* margin: 10px; */
+    padding-bottom: 70%;
+
+}
+
+.bg_img_div:hover{
+    transform: scale(1.07);
+    /* margin-bottom: 70px; */
+}
+
+.forest_bg_div_img:hover {
+    
+}
+
+.item:hover {
+    /* margin-bottom: 70px; */
+}
+
+
+.forest_bg_div_img {
+    background: url("https://media.istockphoto.com/photos/aerial-view-of-lake-tahoe-shoreline-with-mountains-and-turquoise-blue-picture-id1302742624?b=1&k=20&m=1302742624&s=170667a&w=0&h=10t9qpPCwQ2JIb4N9pA04OWlff7TP8McxSxtqQkcCYM=") center center/cover no-repeat;
+    /* background: url("https://images.unsplash.com/photo-1589254066007-898d52d910d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat; */
+}
+
+.dog_bg_div_img {
+    background: url("https://media.istockphoto.com/photos/furry-dog-smiling-with-tongue-out-picture-id1287452200?b=1&k=20&m=1287452200&s=170667a&w=0&h=1XDHJ1DNyzoZ1fellkNKHhmmORqx2Oqt-PSSFJ4eS50=") center center/cover no-repeat;
+    /* background: url("https://images.unsplash.com/photo-1605493624455-a56d6d312f6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2FsbCUyMGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat; */
+}
+
+.mountain_bg_div_img {
+    background: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat;
+    /* background: url("https://images.unsplash.com/photo-1591927597960-95cf948f8028?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2FsbCUyMGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat; */
+}
+
+.WALLE_bg_div_img {
+    background: url("https://images.unsplash.com/photo-1554501535-904049fb2f1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat;
+}
+
+/* .dog{
+    background: url("https://media.istockphoto.com/photos/furry-dog-smiling-with-tongue-out-picture-id1287452200?b=1&k=20&m=1287452200&s=170667a&w=0&h=1XDHJ1DNyzoZ1fellkNKHhmmORqx2Oqt-PSSFJ4eS50=") center center/cover no-repeat;
+    background: url("https://images.unsplash.com/photo-1589254066007-898d52d910d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat;
+
+}
+
+.forest{
+    background: url("https://media.istockphoto.com/photos/aerial-view-of-lake-tahoe-shoreline-with-mountains-and-turquoise-blue-picture-id1302742624?b=1&k=20&m=1302742624&s=170667a&w=0&h=10t9qpPCwQ2JIb4N9pA04OWlff7TP8McxSxtqQkcCYM=") center center/cover no-repeat;
+    background: url("https://images.unsplash.com/photo-1605493624455-a56d6d312f6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2FsbCUyMGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat;
+}
+
+.mountain{
+    background: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat;
+    background: url("https://images.unsplash.com/photo-1591927597960-95cf948f8028?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8d2FsbCUyMGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat;
+}
+
+.WALLE{
+    background: url("https://images.unsplash.com/photo-1554501535-904049fb2f1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") center center/cover no-repeat;
+} */
